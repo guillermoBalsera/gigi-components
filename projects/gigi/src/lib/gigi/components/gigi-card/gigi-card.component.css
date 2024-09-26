@@ -1,0 +1,11 @@
+.gigi-card {
+  min-width: 10vw;
+  max-width: 80vw;
+  min-height: 10vh;
+  max-height: 80vh;
+  border: 1px solid rgba(175, 175, 175, 0.7);
+  border-radius: 0.8rem;
+  padding: 1rem 2rem;
+  width: fit-content;
+  overflow: auto;
+}
