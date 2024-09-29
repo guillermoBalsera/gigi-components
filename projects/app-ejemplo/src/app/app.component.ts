@@ -13,8 +13,8 @@ import {
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, GigiCardComponent, GigiImgCardComponent
-    , GigiButtonComponent, GigiRoundButtonComponent, GigiHorizontalImgCardComponent],
+  imports: [RouterOutlet, GigiCardComponent, GigiImgCardComponent,
+    GigiButtonComponent, GigiRoundButtonComponent, GigiHorizontalImgCardComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
