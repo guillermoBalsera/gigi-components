@@ -1,0 +1,60 @@
+.gigi-button {
+  padding: 0.5rem 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.4rem;
+  font-size: 15px;
+  transition: filter 0.5s ease-in-out;
+  cursor: pointer;
+
+  &:active {
+    transform: scale(0.99);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+}
+
+.primary {
+  background-color: #0051ff;
+  color: #fff;
+
+  &:hover {
+    background-color: #004ad1;
+  }
+}
+
+.danger {
+  background-color: #ff0000;
+  color: #fff;
+
+  &:hover {
+    background-color: #ec0000;
+  }
+}
+
+.warning {
+  background-color: #ffde00;
+  color: #000000;
+
+  &:hover {
+    background-color: #f4d400;
+  }
+}
+
+.success {
+  background-color: #01cf2d;
+  color: #fff;
+
+  &:hover {
+    background-color: #00bc24;
+  }
+}
+
+.basic {
+  background-color: #6c757d;
+  color: #fff;
+
+  &:hover {
+    background-color: #62686e;
+  }
+}
+
+

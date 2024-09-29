@@ -1,7 +1,7 @@
-.gigi-card {
+.gigi-img-card {
   min-width: 10vw;
   max-width: 80vw;
-  min-height: 10vh;
+  min-height: 20vh;
   max-height: 80vh;
   border: 1px solid rgba(175, 175, 175, 0.7);
   border-radius: 0.8rem;
@@ -11,4 +11,11 @@
   overflow-x: hidden;
   font-size: 15px;
   text-align: justify;
+}
+
+.card-image {
+  min-width: 200px;
+  width: 20vw;
+  border-radius: 0.5rem;
+  margin: 10px auto;
 }
