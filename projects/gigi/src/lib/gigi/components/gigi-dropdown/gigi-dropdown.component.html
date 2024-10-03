@@ -1,0 +1,24 @@
+<div class="dropdown-container">
+  <button class="dropdown-button" (click)="toggleDropdown()">
+    {{ title }}
+    @if (dropdownOpen) {
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+        <path fill="currentColor" fill-rule="evenodd"
+              d="M17 15a1 1 0 0 0 .707-1.707l-5-5a1 1 0 0 0-1.414 0l-5 5A1 1 0 0 0 7 15z" clip-rule="evenodd"/>
+      </svg>
+    } @else {
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+        <path fill="currentColor" fill-rule="evenodd"
+              d="M7 9a1 1 0 0 0-.707 1.707l5 5a1 1 0 0 0 1.414 0l5-5A1 1 0 0 0 17 9z" clip-rule="evenodd"/>
+      </svg>
+    }
+  </button>
+  <ul class="dropdown-menu" [class.show]="dropdownOpen">
+    @for (option of options; track options) {
+      <li class="dropdown-menu-option" (click)="selectOption()">
+        {{ option }}
+      </li>
+    }
+    <ng-content></ng-content>
+  </ul>
+</div>

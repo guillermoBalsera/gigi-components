@@ -9,12 +9,14 @@ import {
 import {
   GigiHorizontalImgCardComponent
 } from "../../../gigi/src/lib/gigi/components/gigi-horizontal-img-card/gigi-horizontal-img-card.component";
+import {GigiDropdownComponent} from "../../../gigi/src/lib/gigi/components/gigi-dropdown/gigi-dropdown.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [RouterOutlet, GigiCardComponent, GigiImgCardComponent,
-    GigiButtonComponent, GigiRoundButtonComponent, GigiHorizontalImgCardComponent],
+    GigiButtonComponent, GigiRoundButtonComponent, GigiHorizontalImgCardComponent,
+    GigiDropdownComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
